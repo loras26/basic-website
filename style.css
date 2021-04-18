@@ -1,0 +1,44 @@
+body{background-color:#4ecdc4 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.two{ 
+float: 50%;
+padding-left: 15%;
+}
+
+.one{padding-left: 20%;
+}
+.three{ padding-left: 1%;}
+
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+ 
+
+
+.language{padding: 1em;}
+@media(min-width:940px){
+    .intro{
+        display: flex;
+        float:50%
+    }
+    .flex-container {display: flex;
+        background-color:#ff6b6b;
+        padding: 1em; 
+    
+       
+        }
+        .city {display: flex;
+            padding: 1em; 
+            border:1em;
+            margin: 0.2em;}
+    .place-1, .place-2, .place-3{display: flex;}
+    .two{ float: right;
+        padding-left: 25%;}
+        
+    
+       
+}
