@@ -35,10 +35,12 @@ table, tr, td, th {
             padding: 1em; 
             border:1em;
             margin: 0.2em;}
-    .place-1, .place-2, .place-3{display: flex;}
-    .two{ float: right;
-        padding-left: 25%;}
+    .place-1{display: flex;} 
+    .place-2 {display: flex;}
+    .place-3 {display: flex;}
+    
         
     
        
 }
+/*@media(min-width:320px){background-color: #ffe66d ;  }*/
